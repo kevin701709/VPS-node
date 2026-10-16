@@ -5,12 +5,12 @@
 #  系统: Debian / Ubuntu / CentOS / Rocky / Alma (systemd, amd64/arm64)
 #
 #  一键安装:
-#    bash <(curl -fsSL https://raw.githubusercontent.com/YOUR_NAME/YOUR_REPO/main/install.sh)
+#    bash <(curl -fsSL https://raw.githubusercontent.com/kevin701709/VPS-node/main/install.sh)
 #  安装后直接输入:  kv   (快捷管理命令)
 # =====================================================================
 set -u
 
-# 上传 GitHub 后改成你自己的地址(用于把脚本保存为 kv 命令)
+SCRIPT_URL="https://raw.githubusercontent.com/kevin701709/VPS-node/main/install.sh"
 SCRIPT_URL="https://raw.githubusercontent.com/YOUR_NAME/YOUR_REPO/main/install.sh"
 
 BASE=/etc/xa-menu
